@@ -16,6 +16,9 @@ p {
 .selected {
   color:red;
 }
+.header-logo {
+  float: left;
+}
 .menu {
   float: left;
 }
