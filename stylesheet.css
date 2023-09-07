@@ -4,11 +4,10 @@ h1 {
   background-color:green;
   font-family:serif;
   height:80px;
-  width:200px;
 }
 img{
-  height:50px;
-  width:70px;
+  height:200px;
+  width:250px;
 }
 p {
   color: green;
