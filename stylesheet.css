@@ -16,3 +16,6 @@ p {
 .selected {
   color:red;
 }
+.menu {
+  float: left;
+}
