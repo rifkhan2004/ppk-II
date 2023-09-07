@@ -1,6 +1,10 @@
 h1 {
-color : red;
+  color: red;
+  font-size:40px;
+  font-family:serif;
 }
 p {
   color: green;
+  font-size:20px;
+  font-family:"lucia grande"
 }
