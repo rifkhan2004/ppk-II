@@ -13,3 +13,6 @@ p {
   font-size:20px;
   font-family: "lucida grande"
 }
+.selected {
+  color:red;
+}
