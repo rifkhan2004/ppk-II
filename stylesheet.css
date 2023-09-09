@@ -16,10 +16,20 @@ p {
 .selected {
   color:red;
 }
+li {
+  list-style: none;
+  float: left;
+}
 .header-logo {
   float: left;
+  font-size: 36px;
 }
-.menu {
-  float: left;
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
 }
-
+.footer {
+  background-color: white;
+  height: 270px;
+}
+  
