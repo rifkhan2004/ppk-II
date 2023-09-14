@@ -39,6 +39,15 @@ li {
 .copy-container span{
   color:red;
 }
+.contents{
+  height:500px;
+}
+.section-title{
+  border-bottom:2px solid white;
+}
+.contents-item{
+  float:left;
+}
 .footer {
   background-color: green;
   height: 270px;
