@@ -44,9 +44,13 @@ li {
 }
 .section-title{
   border-bottom:2px solid white;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom:50px;
 }
 .contents-item{
   float:left;
+  margin-right:40px;
 }
 .footer {
   background-color: green;
