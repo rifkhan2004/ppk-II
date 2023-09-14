@@ -26,6 +26,18 @@ li {
   font-size: 36px;
   padding: 20px 10px;
 }
+.main{
+  padding:100px 80px;
+}
+.copy-container h1{
+  font-size:140px;
+}
+.copy-container h2{
+  font-size:60px;
+}
+.copy-container span{
+  color:red;
+}
 .footer {
   background-color: green;
   height: 270px;
