@@ -31,7 +31,17 @@ li {
   height: 100px;
 }
 .footer {
-  background-color: white;
+  background-color: black;
   height: 270px;
+}
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+.footer-list{
+  float:right;
+}
+.footer-list li{
+  padding-bottom:20px;
 }
   
