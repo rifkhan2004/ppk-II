@@ -1,56 +1,65 @@
-<html>
-  <head>
-   <meta charset="utf-8">
-   <title> prograte </title>
-   <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div class=header">
-      <div class="header-logo">
-        PROGRATE</div>
-      <div class="header-list">
-       <ul>
-         <li>Tentang</li>
-         <li>Pelajaran</li>
-         <li>Hubungi kami</li>
-       </ul>
-      </div>
-    </div> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prograte</title>
+    <link rel="stylesheet" href="new.css">
+</head>
 
-     <h1>SELAMAT DATANG DI WEBSITE, BOSS! </h1>
-     <marquee>selamat datang di website pemograman</marquee>
-     <h2> Mari Belajar Tentang HTML</h2>
+<body>
+    <div class="container menu-primer">
+        <ul>
+            <li>
+                <a href="PROGRATE" title="PROGATE">PROGRATE</a>
+            </li>
+            <li>
+                <a href="Tentang.html" title="Tentang">Tentang</a>
+            </li>
+            <li>
+                <a href="Pelajaran.html" title="Pelajaran" class="activ">Pelajaran</a>
+            </li>
+            <li>
+                <a href="Hubungi Kami.html" title="Hubungi Kami">Hubungi Kami</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="marquee">
+        <marquee behavior="SELAMAT DATANG" direction="">SELAMAT DATANG! Mari Belajar HTML dan CSS Bersama</marquee>
+    </div>
+
+    <h1>PELAJARAN</h1>
+    <hr>
 
     <div class="contents-item">
-      <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGgv24pxmkPWz5i9qWPyX8lJF0Z_5ByzOIg&usqp=CAU">
-     <p>PHP</p>
+        <image src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+       <p>HTML</p>
+    </div>
+        <div class="contents-item">
+        <image src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+       <p>Ruby</p>
     </div>
     <div class="contents-item">
-      <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGgv24pxmkPWz5i9qWPyX8lJF0Z_5ByzOIg&usqp=CAU">
-    <p>Ruby</p>
+        <image src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+        <p>Swift</p>
     </div>
-    <div class="contents-item">
-      <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGgv24pxmkPWz5i9qWPyX8lJF0Z_5ByzOIg&usqp=CAU">
-      <p>Swift</p>
-    </div>
+
+    <h1>HUBUNGI KAMI</h2>
+    <hr>
+    <h2><strong>LOGIN</strong></h2>
+            <form method="post" action="post">
+                <div>
+                    <label>Email</label><input type="text" name="email" />
+                </div>
+                <div>
+                    <label>Nama</label><input type="nama" name"nama" />
+                </div>
+                <div>
+                    <label>Pesan</label><input type="pesan" name"pesan" />
+                </div>
+                <input type="submit" value="kirim" />
+            </form>
     
-     <a href="www.matematika.uin-malang.ac.id"> Website official Prodi Math</a>
-     <ul>
-      <li class="selected"> HTML </li>
-      <li class="selected"> PHP </li>
-      <li> Ruby </li>
-     </ul>
-      
-    <div class="footer">
-      <div class="footer-logo">
-        progate</div>
-        <div class="footer-list">
-          <ul>
-            <li>Tentang</li>
-            <li>Karier</li>
-            <li>Hubungi Kami</li>
-          </ul>
-        </div>
-    </div>
-  </body>
+</body>
 </html>
