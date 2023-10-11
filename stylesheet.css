@@ -1,69 +1,31 @@
-h1 {
-  color: red;
-  font-size:40px;
-  background-color:green;
-  font-family:serif;
+.menu-primer{
+    background-color:rgb(28, 121, 28); 
 }
-img{
-  height:200px;
-  width:250px;
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
 }
-p {
-  color: green;
-  font-size:20px;
-  font-family: "lucida grande"
-}
-.selected {
-  color:red;
-}
-li {
-  list-style: none;
-  float: left;
-  padding: 20px 10px;
-}
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 10px;
-}
-.main{
-  background-color:yellow;
-  padding:100px 80px;
-}
-.copy-container h1{
-  font-size:140px;
-}
-.copy-container h2{
-  font-size:60px;
-}
-.copy-container span{
-  color:red;
-}
-.contents{
-  height:500px;
-}
-.section-title{
-  border-bottom:2px solid white;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom:50px;
-}
-.contents-item{
-  float:left;
-  margin-right:40px;
-}
-.footer {
-  background-color: green;
-  height: 270px;
-}
-.footer-logo{
-  font-size:32px;
-  float:left;
-}
-.footer-list{
-  float:right;
-}
-.footer-list li{
-  padding-bottom:20px;
-}
+.menu-primer a {
+    color: #0c0808;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
   
+} 
+.menu-primer a:hover {
+    background-color: #0bec1e;
+    color: #000000;
+    text-decoration: none;
+}
+.marquee {
+    background-color: #333;
+    color: aqua;
+
+}
+.contents-item {
+    float: left;
+    margin-right: 40px;
+}
